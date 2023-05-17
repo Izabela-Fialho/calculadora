@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+.calculadora {
+    background-color: #363434;
+    border-style: ridge;
+    Border-color: #555555;
+    border-width: 5px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    width: 380px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    margin: 0px 0px 24px;
+  }
+
+input {
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+  } 
+
+
+input[type=tel] {
+    background-color: #cccccc;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 22px;
+    height: 40px;
+    margin-bottom: 24px;
+    padding: 10px;
+    text-align: center;
+    width: 360px;
+  }
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+    background-color: #cccccc;
+    border-radius: 20px;
+    padding: 16px;
+  }
+
+input[type=button] {
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    height: 80px;
+    width: 80px;
+    font-size: 24px;
+  }
+
+.calculadora input[value="="] {
+    grid-column: 4 / span 1;
+    grid-row: span 2;
+    background-color:  #8d8282;
+    color: white;
+    height: 170px;
+}
+
+.calculadora input[value="0"] {
+
+    grid-column: span 2;
+    width: 170px;
+}
+
+        
+
+       
+   
