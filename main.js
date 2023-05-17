@@ -1,4 +1,4 @@
-// reconhecer cada tecla
+
 const listaDeTeclas = document.querySelectorAll('input[type=button]'); // recebe todas as teclas
 const inputTel = document.querySelector('input[type=tel]'); // capiturar o imput (painel da tela)
 
